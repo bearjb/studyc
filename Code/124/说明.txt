@@ -1,0 +1,13 @@
+请将程序中的main()函数中的
+initgraph(&gdriver,&gmode,"C:\\TC");	函数中的"C:\\TC"
+更改为你的TC安装目录。
+
+比如你的TC安装目录为D盘的Tools目录下的TC目录，那么上述语句改为：
+initgraph(&gdriver,&gmode,"D:\\Tools\\TC");
+
+
+程序运行时，要求输入正方形的边长length，正方形个数n，和相邻两个正方形之间的角度度数theta，
+可以取边长取值为200 <= length <= 400，个数取值为 7 <= n <= 20，角度取值为 7 <= theta <= 15，
+可以得到比较正常的图形，其它的取值可自行验证。
+
+

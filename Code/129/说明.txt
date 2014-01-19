@@ -1,0 +1,12 @@
+请将程序中的main()函数中的
+initgraph(&gdriver,&gmode,"C:\\TC");	函数中的"C:\\TC"
+更改为你的TC安装目录。
+
+比如你的TC安装目录为D盘的Tools目录下的TC目录，那么上述语句改为：
+initgraph(&gdriver,&gmode,"D:\\Tools\\TC");
+
+程序编译后，生成的可执行文件，比如129.exe
+在TC目录下，可以通过在TC编译器环境中编译执行。
+如果要单独把129.exe程序拷贝到别的目录或计算机上执行
+一般情况下，要把EGAVGA.BGI文件一起拷贝，并与129.exe放在同一个目录下，再运行129.exe，
+即可正常运行。

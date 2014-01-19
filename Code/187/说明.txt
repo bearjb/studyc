@@ -1,0 +1,3 @@
+本程序的调试环境为TC2.0或者TC3.0。运行这个程序需要TC提供的几个头文件。建议修改“options”菜单中的“include”目录项指向TC安装目录下的include目录)；或者把源程序拷贝到tc目录下运行。
+而本章例子中，因为MICROCAD.C内嵌汇编代码，读者要在命令行下输入tcc -B D:\TC\source\MICROCAD\MICROCAD.C，来编译MICROCAD.C。
+注意，在汇编的时候TC要调用TASM.exe。
